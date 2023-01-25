@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "module": "commonjs",
+    "module": "NodeNext",
     "sourceMap": true,
     "outDir": "./dist",
     "rootDir": "./src",
