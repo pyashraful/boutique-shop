@@ -1,7 +1,7 @@
 // require('dotenv').config({ path: '../../../.env' });
 
 import dotenv from "dotenv";
-import dbMigration from "../knexfile.js";
+import dbMigration from "../knexfile";
 import knex, { Knex } from "knex";
 // import env from "../../"
 

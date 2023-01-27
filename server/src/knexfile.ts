@@ -4,8 +4,7 @@
 import path from "path";
 import dotEnv from "dotenv";
 
-// dotEnv.config({ path: "../.env" });
-dotEnv.config();
+dotEnv.config({ path: path.join(__dirname + "/../.env") });
 // console.log(path.dirname());
 console.log(process.env.MYSQL_HOST);
 console.log(
